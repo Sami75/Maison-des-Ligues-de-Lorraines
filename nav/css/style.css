@@ -1,0 +1,88 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Cambria;
+	background-color: #FFF;
+}
+.header
+{
+	height: 70px;
+	background-image: url(images/header_background.jpg);
+	background-size: cover; /*background header s'adapte*/
+	background-attachment: fixed;
+	/*background-image:linear-gradient(white 15%, #575B5B);
+	/*background-color: #686C6C;
+	border-bottom-width: 15px;
+	border-bottom-color: #000;*/
+}
+a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+.header-logo
+{
+    font-size: 34px;
+    font-weight: 700;
+	display: block;
+	float: left;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+.menu
+{
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin-top: 50px;
+	margin-right: 15px;
+}
+.menu-item
+{
+	font-size: 16px;
+	transition-duration: 0.4s;
+}
+.menu-item:hover
+{
+	color: #BA7112;
+}
+.menu-item:before
+	{
+		content: '|';
+		color: #FFF;
+		padding: 0 22px 0 13px;
+	}
+.menu-item:first-child:before
+{
+	display: none;
+}
+
+.titre
+{
+
+	margin-top : 2%;
+	font-family : 2px "Times New Roman", Serif;
+	font-size : 30px;
+	text-align: center;
+
+}
+
+.trait
+{
+
+	border-bottom : 3px solid black;
+	width : 255px;
+}
+
+.paragraphe
+{
+	font-family : 2px "Times New Roman", Serif;
+	position : relative;
+	text-align: center;
+}
+
+.lien
+{
+	 
+}

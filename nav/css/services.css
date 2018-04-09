@@ -1,0 +1,110 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	font-family: Cambria;
+}
+.header
+{
+	height: 70px;
+	background-image: url(images/header_background.jpg);
+	background-size: cover; /*background header s'adapte*/
+	background-attachment: fixed;
+	/*background-image:linear-gradient(white 15%, #575B5B);
+	/*background-color: #686C6C;
+	border-bottom-width: 15px;
+	border-bottom-color: #000;*/
+}
+a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+.header-logo
+{
+    font-size: 34px;
+    font-weight: 700;
+	display: block;
+	float: left;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+.menu
+{
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin-top: 50px;
+	margin-right: 15px;
+}
+.menu-item
+{
+	font-size: 16px;
+	transition-duration: 0.4s;
+}
+.menu-item:hover
+{
+	color: #BA7112;
+}
+.menu-item:before
+{
+		content: '|';
+		color: #FFF;
+		padding: 0 22px 0 13px;
+}
+
+.menu-item:first-child:before
+{
+	display: none;
+}
+table
+{
+	margin-top: 50%;
+	border-radius: 12px 12px 12px 12px;
+}
+td
+{
+	font-family: 2px "Times New Roman", Serif;
+	text-align: left;
+	border: 5px solid black;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+}
+.customTab {
+	position : 	relative;
+	left : 17%;
+	display : inline-table;
+	margin-right:10%;
+	max-width : 15%;
+
+}
+
+.customElement {
+	position : relative;
+	left : 500px;
+}
+
+.centrer
+{
+	text-align: center;
+	color: #BA7112;
+	margin-top: 50px;
+	text-align : center;
+}
+
+.element 
+{
+	position: relative;
+    margin-left: 18%;
+    display: inline-table;
+    max-width: 100%;
+    margin-top: -25%;
+    margin-bottom: 20%;
+
+}
+
+.gras
+{
+	font-weight: bold;
+}
